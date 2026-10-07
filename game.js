@@ -1,4 +1,5 @@
 function getRandomQuote() {
-  const quoteList = window.CRYPTOGRAM_QUOTES;
-  return quoteList[Math.floor(Math.random() * quoteList.length)];
+  // Access the global array
+  const randomIndex = Math.floor(Math.random() * CRYPTOGRAM_QUOTES.length);
+  return CRYPTOGRAM_QUOTES[randomIndex];
 }

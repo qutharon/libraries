@@ -1,4 +1,4 @@
-window.CRYPTOGRAM_QUOTES = [
+const CRYPTOGRAM_QUOTES = [
   {
     "author": "Thomas Edison",
     "quote": "Genius is one percent inspiration and ninety-nine percent perspiration."
